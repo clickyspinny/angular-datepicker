@@ -14,7 +14,16 @@ This is basically a [pickadate.js](https://github.com/amsul/pickadate.js) fork t
 
 ### Usage
 
-Include `build/angular-datepicker.js` in your application:
+Include `build/angular-datepicker.js` in your application.
+
+Include CSS files in your application:
+```HTML
+<link rel="stylesheet" href="build/themes/default.css"/>
+<link rel="stylesheet" href="build/themes/default.date.css"/>
+<link rel="stylesheet" href="build/themes/default.time.css"/>
+```
+
+Note: for usage within a modal the default (not classic) CSS files are recommended.
 
 ```HTML
 <script src="angular-datepicker.js"></script>
